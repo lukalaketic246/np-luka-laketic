@@ -1,0 +1,12 @@
+[project]
+name = "np-ime-prezime"
+version = "0.1.0"
+description = "Zadaci iz predmeta Napredno programiranje"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
